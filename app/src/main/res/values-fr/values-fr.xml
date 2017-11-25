@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">Strim</string>
+
+    <string name="facebook_app_id">304172646764941</string>
+    <string name="fb_login_protocol_scheme">fb304172646764941</string>
+
+    <string name="interstitial">ca-app-pub-1019247544085882/3859165913</string>
+
+    <string name="interstitial_full_screen">ca-app-pub-1019247544085882/3859165913</string>
+    <string name="banner_home_footer">ca-app-pub-1019247544085882/9949370462</string>
+
+    <string name="next">SUIVANT</string>
+    <string name="skip">PASSER</string>
+    <string name="start">START</string>
+
+    <string name="slide_1_title">VOIR VOS ABONNEMENTS</string>
+    <string name="slide_1_desc">Ajoutez vos services et l\'application vous montrera quand ils ont fini et il vous rappellera</string>
+
+    <string name="slide_2_title">AJOUTER DES ABONNEMENTS</string>
+    <string name="slide_2_desc">Appuyez simplement sur le bouton Ajouter et sélectionnez le service que vous voulez</string>
+
+    <string name="slide_3_title">REGARDEZ LES STATISTIQUES</string>
+    <string name="slide_3_desc">Obtenir des informations sur les services les plus ajoutés par les utilisateurs</string>
+
+
+    <string name="label_google_sign_in">Firebase + Google Sign In</string>
+    <string name="desc_google_sign_in">Use a Google Sign In credential to authenticate with Firebase.</string>
+
+    <string name="nombre_del_servicio">Nom du service</string>
+    <string name="ejemplo_servicios">Par exemple: Netflix, Spotify, Apple Music ...</string>
+    <string name="precio_mes">Prix par mois</string>
+    <string name="selecciona_fecha">Sélectionnez \n Date</string>
+    <string name="añadir_suscripcion">Ajouter un service</string>
+    <string name="mostrar_servicios">Afficher tous mes services</string>
+    <string name="eliminar_servicio">Supprimer le service sélectionné</string>
+    <string name="porcentaje_admision">Pourcentage d\'admission: </string>
+    <string name="veces_añadido">Nombre de fois ajoutées: </string>
+    <string name="nombre_SERVICIO">Service: </string>
+    <string name="dinero_servicio">Argent: </string>
+    <string name="renovacion_servicio">Rénovation: </string>
+
+    <string name="loading">Chargement ...</string>
+    <string name="firebase_status_fmt">Firebase User: %s</string>
+
+    <string name="enviar_sugerencia">Envoyer une suggestion</string>
+    <string name="mi_perfil">Mon profil</string>
+    <string name="estadisticas_servicios">Statistiques des services</string>
+
+    <string name="netflix_servicios">Vous avez ajouté Netflix à vos services</string>
+    <string name="spotify_servicios">Vous avez ajouté Spotify à vos services</string>
+    <string name="apple_music_servicios">Vous avez ajouté Apple Music à vos services</string>
+    <string name="hbo_servicios">Vous avez ajouté HBO à vos services</string>
+    <string name="drive_servicios">Vous avez ajouté Google Drive à vos services</string>
+    <string name="dribble_servicios">Vous avez ajouté Dribble à vos services</string>
+    <string name="dropbox_servicios">Vous avez ajouté Dropbox à vos services</string>
+    <string name="evernote_servicios">Vous avez ajouté Evernote à vos services</string>
+    <string name="icloud_servicios">Vous avez ajouté iCloud à vos services</string>
+    <string name="vodafone_servicios">Vous avez ajouté Vodafone à vos services</string>
+    <string name="playstation_servicios">Vous avez ajouté Playstation Plus à vos services</string>
+    <string name="basecamp_servicios">Vous avez ajouté Basecamp à vos services</string>
+    <string name="slack_servicios">Vous avez ajouté Slack à vos services</string>
+    <string name="verizon_servicios">Vous avez ajouté Verizon à vos services</string>
+    <string name="ing_servicios">Vous avez ajouté ING à vos services</string>
+    <string name="adobe_servicios">Vous avez ajouté Creative Cloud à vos services</string>
+    <string name="onedrive_servicios">Vous avez ajouté Microsoft OneDrive à vos services</string>
+    <string name="deezer_servicios">Vous avez ajouté Deezer à vos services</string>
+    <string name="ply_music_servicios">Vous avez ajouté Google Play Musique à vos services</string>
+    <string name="americanexpress_servicios">Vous avez ajouté American Express à vos services</string>
+    <string name="sketch_servicios">Vous avez ajouté Sketch à vos services</string>
+
+    <string name="netflix_servicios_elm">Vous avez supprimé Netflix à vos services</string>
+    <string name="spotify_servicios_elm">Vous avez supprimé Spotify de vos services</string>
+    <string name="apple_music_servicios_elm">Vous avez supprimé Apple Music à vos services</string>
+    <string name="hbo_servicios_elm">Vous avez supprimé HBO à vos services</string>
+    <string name="drive_servicios_elm">Vous avez supprimé Google Drive de vos services</string>
+    <string name="dribble_servicios_elm">Vous avez supprimé Dribble à vos services</string>
+    <string name="dropbox_servicios_elm">Vous avez supprimé Dropbox à vos services</string>
+    <string name="evernote_servicios_elm">Vous avez supprimé Evernote à vos services</string>
+    <string name="icloud_servicios_elm">Vous avez supprimé iCloud à vos services</string>
+    <string name="vodafone_servicios_elm">Vous avez supprimé Vodafone à vos services</string>
+    <string name="playstation_servicios_elm">Vous avez éliminé Playstation Plus à vos services</string>
+    <string name="basecamp_servicios_elm">Vous avez supprimé Basecamp à vos services</string>
+    <string name="slack_servicios_elm">Vous avez supprimé Slack à vos services</string>
+    <string name="verizon_servicios_elm">Vous avez supprimé Verizon à vos services</string>
+    <string name="ing_servicios_elm">Vous avez supprimé ING à vos services</string>
+    <string name="adobe_servicios_elm">Vous avez supprimé Creative Cloud de vos services</string>
+    <string name="onedrive_servicios_elm">Vous avez supprimé Microsoft OneDrive à vos services</string>
+    <string name="deezer_servicios_elm">Vous avez supprimé Deezer à vos services</string>
+    <string name="ply_music_servicios_elm">Vous avez supprimé Google Play Musique de vos services</string>
+    <string name="americanexpress_servicios_elm">Vous avez supprimé American Express à vos services</string>
+    <string name="sketch_servicios_elm">Vous avez supprimé Sketch à vos services</string>
+
+    <string name="decadames"> de chaque mois</string>
+
+
+    <string name="google_status_fmt">Google User: %s</string>
+    <string name="google_title_text">Google Sign In</string>
+
+    <string name="desc_firebase_lockup">Firebase logo and name</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="signed_out">Signed Out</string>
+
+    <string name="disconnect">Disconnect</string>
+
+
+    <string name="id_fmt">User ID: %s</string>
+    <string name="email_fmt">Email: %s</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>

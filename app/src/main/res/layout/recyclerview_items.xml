@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardview1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    card_view:cardElevation="5dp"
+    card_view:contentPadding="5dp"
+    card_view:cardCornerRadius="5dp"
+    card_view:cardMaxElevation="5dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ECEFF1"
+        android:padding="10dp"
+        android:id="@+id/rtl"
+        >
+
+        <TextView
+            android:id="@+id/StudentName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/nombre_SERVICIO"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/ShowStudentNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="19dp"
+            android:layout_marginStart="19dp"
+            android:layout_toEndOf="@+id/StudentName"
+            android:layout_toRightOf="@+id/StudentName"
+            android:gravity="center"
+            android:text="Show Student Name"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/StudentNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/dinero_servicio"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_below="@+id/StudentName"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/ShowStudentNumberTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Show Number"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginStart="11dp"
+            android:layout_below="@+id/ShowStudentNameTextView"
+            android:layout_toRightOf="@+id/StudentNumber"
+            android:layout_toEndOf="@+id/StudentNumber" />
+
+        <TextView
+            android:id="@+id/txt_moneda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:layout_alignBaseline="@+id/ShowStudentNumberTextView"
+            android:layout_alignBottom="@+id/ShowStudentNumberTextView"
+            android:layout_toEndOf="@+id/ShowStudentNumberTextView"
+            android:layout_toRightOf="@+id/ShowStudentNumberTextView"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/StudentDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/ShowStudentNumberTextView"
+            android:gravity="center"
+            android:text="@string/renovacion_servicio"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txt_fecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ShowStudentNumberTextView"
+            android:layout_toEndOf="@+id/StudentDate"
+            android:layout_toRightOf="@+id/StudentDate"
+            android:gravity="center"
+            android:text="Show Number"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/txt_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/txt_fecha"
+            android:layout_alignBottom="@+id/txt_fecha"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:layout_toEndOf="@+id/txt_fecha"
+            android:layout_toRightOf="@+id/txt_fecha"
+            android:text="TextView"
+            android:visibility="gone" />
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
